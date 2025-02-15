@@ -39,3 +39,10 @@ To ensure a reliable evaluation, I used cross-validation techniques to validate 
 | **K-Nearest Neighbors**       | n_neighbors (various values), weights (distance-based) | 0.3729 - 0.3673 | 0.1390 - 0.1349 | 0.6390 - 0.6496 |
 | **Random Forest Regressor**   | n_estimators (various values), criterion (absolute error, Friedman's MSE) | 0.2139 - 0.2090 | 0.0458 - 0.0437 | 0.8812 - 0.8865 |
 | **Gradient Boosting Regressor** | loss function (absolute error, Huber, quantile) | 0.2117 - 0.2094 | 0.0448 - 0.0438 | 0.8836 - 0.8861 |
+
+
+![21 GradientBoostingRegressor(loss='huber')](https://github.com/user-attachments/assets/418c40e9-5044-4290-9683-27f1900c4d56)
+![18 RandomForestRegressor(criterion='friedman_mse', random_state=42)](https://github.com/user-attachments/assets/043ab750-0d32-4614-9226-08c3af21edcb)
+![4 KNeighborsRegressor(weights='distance')](https://github.com/user-attachments/assets/56a31c94-4dd8-4eeb-83ae-356ff5903603)
+![0 LinearRegression()](https://github.com/user-attachments/assets/ab40e303-3407-4a1c-a1aa-c935d2d84fec)
+
